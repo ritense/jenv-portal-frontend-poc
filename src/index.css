@@ -15,3 +15,49 @@ body {
   padding: 0;
   height: 100%;
 }
+
+.denhaag-page-header {
+  background-color: var(--rijkshuisstijl-grijs) !important;
+}
+.denhaag-page {
+  background-color: var(--rijkshuisstijl-grijs) !important;
+}
+.denhaag-responsive-content {
+  padding: 0;
+}
+._header_ngaqb_1 {
+  background-color: var(--rijkshuisstijl-wit);
+  border-bottom: 2px solid var(--rijkshuisstijl-hemelblauw);
+}
+._header__logo-container_ngaqb_60 {
+  display: none;
+}
+footer {
+  border-top: 2px solid var(--rijkshuisstijl-lintblauw);
+}
+._header_ngaqb_1:before {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #154273;
+  width: 44px;
+  height: 78px;
+  content: "";
+  background-image: url(src/assets/logo-rijksoverheid-wapen.svg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 80% 60%;
+}
+.denhaag-page-footer:before {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #154273;
+  width: 44px;
+  height: 32px;
+  content: "";
+}

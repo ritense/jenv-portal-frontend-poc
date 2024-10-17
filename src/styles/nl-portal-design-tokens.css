@@ -21,6 +21,7 @@
   --rijkshuisstijl-hemelblauw: #007bc7;
   --rijkshuisstijl-lichtblauw: #8fcae7;
   --rijkshuisstijl-grijs: #fbfbfb;
+  --rijkshuisstijl-donkergrijs: #383838;
   --rijkshuisstijl-grijs-1: #f3f3f3;
   --rijkshuisstijl-grijs-2: #e6e6e6;
   --rijkshuisstijl-grijs-3: #cccccc;
@@ -51,7 +52,7 @@
   --nlportal-heading-5-color: var(--rijkshuisstijl-donkerblauw);
   --nlportal-heading-color: var(--rijkshuisstijl-zwart);
   --nlportal-heading-3-color: var(--rijkshuisstijl-donkerblauw);
-  --nlportal-footer-background-color: var(--rijkshuisstijl-grijs-7);
+  --nlportal-footer-background-color: var(--rijkshuisstijl-donkergrijs);
 
   --nlportal-space-block-5xl: var(--denhaag-space-block-5xl);
   --nlportal-space-block-4xl: var(--denhaag-space-block-4xl);

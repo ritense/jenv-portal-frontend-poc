@@ -5,7 +5,7 @@ export const footerData: PortalFooter = [
     titleTranslationKey: "over-deze-site",
     links: [
       {
-        linkTranslationKey: "wat-is-mijnoverheid",
+        linkTranslationKey: "wat-is-MijnOverheid",
         url: "https://mijn.overheid.nl/wat-is-mijnoverheid/",
         hrefLang: "nl",
       },
@@ -37,7 +37,7 @@ export const footerData: PortalFooter = [
       {
         linkTranslationKey: "wet-en-regelgeving",
         url: "https://mijn.overheid.nl/wet-en-regelgeving/",
-        hrefLang: "en",
+        hrefLang: "nl",
       },
     ],
   },
@@ -67,7 +67,7 @@ export const footerData: PortalFooter = [
       {
         linkTranslationKey: "klacht",
         url: "https://mijn.overheid.nl/contact/klacht",
-        hrefLang: "en",
+        hrefLang: "nl",
       },
     ],
   },
@@ -80,14 +80,14 @@ export const footerData: PortalFooter = [
         hrefLang: "nl",
       },
       {
-        linkTranslationKey: "overheidNl",
+        linkTranslationKey: "overheid.nl",
         url: "https://www.overheid.nl/",
         hrefLang: "nl",
       },
       {
-        linkTranslationKey: "rijksoverheidNl",
+        linkTranslationKey: "rijksoverheid.nl",
         url: "https://www.rijksoverheid.nl/",
-        hrefLang: "en",
+        hrefLang: "nl",
       },
       {
         linkTranslationKey: "mfo-burgers",

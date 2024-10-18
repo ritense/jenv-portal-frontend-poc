@@ -1,30 +1,58 @@
 :root {
-  --denhaag-color-green-1: #00811f; /* Main Color Token */
-  --denhaag-color-green-2: #00811f; /* Main Color Token */
-  --denhaag-color-green-3: #00811f; /* Main Color Token */
-  --denhaag-color-blue-1: #00811f;
-  --denhaag-color-blue-2: #00811f; /* Secondary Color Token */
-  --denhaag-color-blue-3: var(
-    --denhaag-color-white
-  ); /* Secondary Color Token */
-  --denhaag-card-case-title-color: var(--denhaag-color-white);
-  --denhaag-card-case-color: var(--denhaag-color-white);
+  /* Rijkshuisstijl colors */
+  --rijkshuisstijl-wit: #ffffff;
+  --rijkshuisstijl-zwart: #000000;
+  --rijkshuisstijl-lintblauw: #154273;
+  --rijkshuisstijl-paars: #42145f;
+  --rijkshuisstijl-violet: #a90061;
+  --rijkshuisstijl-robijnrood: #ca005d;
+  --rijkshuisstijl-roze: #f092cd;
+  --rijkshuisstijl-rood: #d52b1e;
+  --rijkshuisstijl-oranje: #e17000;
+  --rijkshuisstijl-donkergeel: #ffb612;
+  --rijkshuisstijl-geel: #f9e11e;
+  --rijkshuisstijl-donkerbruin: #673327;
+  --rijkshuisstijl-bruin: #94710a;
+  --rijkshuisstijl-donkergroen: #275937;
+  --rijkshuisstijl-groen: #39870c;
+  --rijkshuisstijl-mosgroen: #777b00;
+  --rijkshuisstijl-mintgroen: #76d2b6;
+  --rijkshuisstijl-donkerblauw: #01689b;
+  --rijkshuisstijl-hemelblauw: #007bc7;
+  --rijkshuisstijl-lichtblauw: #8fcae7;
+  --rijkshuisstijl-grijs: #fbfbfb;
+  --rijkshuisstijl-donkergrijs: #383838;
+  --rijkshuisstijl-grijs-1: #f3f3f3;
+  --rijkshuisstijl-grijs-2: #e6e6e6;
+  --rijkshuisstijl-grijs-3: #cccccc;
+  --rijkshuisstijl-grijs-4: #b4b4b4;
+  --rijkshuisstijl-grijs-5: #999999;
+  --rijkshuisstijl-grijs-6: #696969;
+  --rijkshuisstijl-grijs-7: #535353;
+
+  --denhaag-color-green-1: var(--rijkshuisstijl-donkerblauw);
+  --denhaag-color-green-2: var(--rijkshuisstijl-donkerblauw);
+  --denhaag-color-green-3: var(--rijkshuisstijl-donkerblauw);
+  --denhaag-color-blue-1: var(--rijkshuisstijl-donkerblauw);
+  --denhaag-color-blue-2: var(--rijkshuisstijl-donkerblauw);
+  --denhaag-color-blue-3: var(--rijkshuisstijl-wit);
+  --denhaag-card-case-title-color: var(--rijkshuisstijl-wit);
+  --denhaag-card-case-color: var(--rijkshuisstijl-wit);
   --denhaag-card-case-secondary-background-color: #00651f;
-  --denhaag-card-arrow-color: var(--denhaag-color-green-1);
-  --denhaag-card-case-arrow-color: var(--denhaag-color-white); /* c93675 */
-  --denhaag-card-case-arrow-active-color: var(
-    --denhaag-color-white
-  ); /* a12b5e */
-  --utrecht-heading-color: var(--denhaag-color-green-3);
-  --utrecht-heading-2-color: var(--denhaag-color-green-3);
-  --utrecht-heading-4-color: var(--denhaag-color-white);
+  --denhaag-card-arrow-color: var(--rijkshuisstijl-donkerblauw);
+  --denhaag-card-case-arrow-color: var(--rijkshuisstijl-wit);
+  --denhaag-card-case-arrow-active-color: var(--rijkshuisstijl-wit);
+  --utrecht-heading-color: var(--rijkshuisstijl-donkerblauw);
+  --utrecht-heading-2-color: var(--rijkshuisstijl-donkerblauw);
+  --utrecht-heading-4-color: var(--rijkshuisstijl-wit);
   --utrecht-document-color: #404b4f;
-  --utrecht-feedback-neutral-fill-background-color: #c93675;
-  --utrecht-feedback-neutral-fill-color: var(--denhaag-color-white);
-  --nlportal-heading-5-color: #a12b5e;
-  --nlportal-heading-color: var(--denhaag-color-green-3);
-  --nlportal-heading-3-color: var(--denhaag-color-green-3);
-  --nlportal-footer-background-color: var(--denhaag-color-green-3);
+  --utrecht-feedback-neutral-fill-background-color: var(--rijkshuisstijl-donkerblauw);
+  --utrecht-feedback-neutral-fill-color: var(--rijkshuisstijl-wit);
+  
+  --nlportal-heading-5-color: var(--rijkshuisstijl-donkerblauw);
+  --nlportal-heading-color: var(--rijkshuisstijl-zwart);
+  --nlportal-heading-3-color: var(--rijkshuisstijl-donkerblauw);
+  --nlportal-footer-background-color: var(--rijkshuisstijl-donkergrijs);
 
   --nlportal-space-block-5xl: var(--denhaag-space-block-5xl);
   --nlportal-space-block-4xl: var(--denhaag-space-block-4xl);
@@ -57,7 +85,7 @@
   --nlportal-header-logo-margin-fullscreen: 38px;
   --nlportal-header-logo-margin-fullscreen-tablet: 116px;
   --nlportal-header-facet-height: 14px;
-  --nlportal-header-background-color: var(--denhaag-color-white);
+  --nlportal-header-background-color: var(--rijkshuisstijl-wit);
   --nlportal-header-bar-height: 14px;
   --nlportal-header-bar-height-tablet: 54px;
   --nlportal-header-bar-background-color: var(--denhaag-color-blue-3);
@@ -68,13 +96,13 @@
   --nlportal-header-user-name-max-width-desktop: 350px;
   --nlportal-desktop-menu-width: 230px;
   --nlportal-menu-item-height: 3rem;
-  --nlportal-menu-background-color: var(--denhaag-color-white);
+  --nlportal-menu-background-color: var(--rijkshuisstijl-grijs);
   --nlportal-menu-button-active-color: var(--denhaag-menu-button-active-color);
   --nlportal-menu-button-font-size: var(--denhaag-menu-button-font-size);
   --nlportal-base-font-size: var(--denhaag-typography-scale-base-font-size);
 
   --nlportal-current-page-indicator-background-color: var(
-    --denhaag-color-blue-1
+    --rijkshuisstijl-donkerblauw
   );
   --nlportal-current-page-indicator-height: 56px;
   --nlportal-footer-link-color: var(--denhaag-color-grey-1);
@@ -85,7 +113,7 @@
   --nlportal-border-radius: var(--denhaag-border-radius);
   --nlportal-mobile-menu-element-height: 43px;
   --nlportal-mobile-menu-background-color: var(--denhaag-color-grey-1);
-  --nlportal-mobile-menu-font-color: var(--denhaag-color-green-3);
+  --nlportal-mobile-menu-font-color: var(--rijkshuisstijl-donkerblauw);
   --nlportal-mobile-menu-font-weight: var(
     --denhaag-menu-button-active-font-weight
   );

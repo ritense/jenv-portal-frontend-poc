@@ -147,7 +147,7 @@ h1, h2, h3 {
   margin-bottom: .5rem !important;
 }
 .denhaag-menu-button {
-  margin-bottom: 1rem !important;
+  margin-bottom: .5rem !important;
 }
 .denhaag-link span {
   font-weight: lighter !important;
@@ -170,12 +170,17 @@ h1, h2, h3 {
 ._footer__column--spaced_ij9z0_38,
 ._footer__column_ij9z0_31 {
   margin: 1rem 0 !important;
-  min-width: 25%;
+  min-width: 30%!important;
 }
+
 ._footer__inner_ij9z0_13 {
-  margin: 1rem 0 !important;
-  max-width: 1540px !important;
+  margin: 1rem auto !important;
 }
+
 ._page-grid_1npwh_1 {
   --nlportal-page-grid-gap: 3rem;
+}
+
+a[href*="account"]._denhaag-menu-button--flex_1llc2_1 {
+  margin-top: 2rem;
 }

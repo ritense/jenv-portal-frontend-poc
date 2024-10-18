@@ -1,5 +1,10 @@
 import { NavigationItem } from "@nl-portal/nl-portal-user-interface";
-import {ArchiveIcon, GridIcon, MessageIcon, UserIcon} from "@gemeente-denhaag/icons";
+import {
+  EmailIcon,
+  HouseIcon,
+  InboxIcon,
+  UserLoggedInIcon
+} from "@gemeente-denhaag/icons";
 import { paths } from "./paths";
 
 export const menuItems: NavigationItem[][] = [
@@ -7,27 +12,27 @@ export const menuItems: NavigationItem[][] = [
     {
       titleTranslationKey: "overview",
       path: paths.overview,
-      icon: <GridIcon />,
+      icon: <HouseIcon />,
     },
   ],[
     {
       titleTranslationKey: "messages",
       path: paths.messages,
-      icon: <MessageIcon />
+      icon: <EmailIcon />
     }
   ],
   [
     {
       titleTranslationKey: "cases",
       path: paths.cases,
-      icon: <ArchiveIcon />,
+      icon: <InboxIcon />,
     },
   ],
   [
     {
       titleTranslationKey: "account",
       path: paths.account,
-      icon: <UserIcon />,
+      icon: <UserLoggedInIcon />,
     },
   ],
 ];

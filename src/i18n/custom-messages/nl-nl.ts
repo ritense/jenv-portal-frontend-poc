@@ -3,8 +3,7 @@ import { DEFAULT_LOCALES, Messages } from "@nl-portal/nl-portal-localization";
 export const NL_NL_MESSAGES: Messages = {
   [DEFAULT_LOCALES.DUTCH]: {
     "app.appName": "NL-Portal",
-    "overviewpage.paragraph":
-      "Dit is de NL-Portal implementatie",
+    "overviewpage.paragraph": "Dit is de NL-Portal implementatie",
     "case.SO_LALOVU.status.ontvangen": "Ontvangen",
     "case.SO_LALOVU.status.wacht-op-aanvulling": "Wacht op aanvulling",
     "case.SO_LALOVU.status.in-behandeling": "In behandeling",
@@ -28,5 +27,9 @@ export const NL_NL_MESSAGES: Messages = {
     "footerLinks.overheid.nl": "Overheid.nl",
     "footerLinks.rijksoverheid.nl": "Rijksoverheid.nl",
     "footerLinks.mfo-burgers": "Meldpunt Fouten in Overheidsregistraties",
+    "pageTitles.overview": "Home",
+    "pageTitles.messages": "Berichtenbox",
+    "pageTitles.cases": "Lopende zaken",
+    "pageTitles.account": "Persoonsgegevens",
   },
 };

@@ -8,13 +8,12 @@ const ContactEditPage = () => {
     const id = useParams().id;
     let selectedContact = contactsData.find((e) => e.id === id);
     let pageTitle = id ? 'Aanpassen' : 'Nieuwe contact toevoegen';
-    console.log(selectedContact)
     return (
         <div className={"list-page"}>
             <header>
                 <h1>{pageTitle}</h1>
                 <Link to={paths.contacts}>
-                    <ArrowLeft/> Terug naar contacten
+                    <ArrowLeft/>&nbsp;&nbsp;Terug naar contacten
                 </Link>
                 <br/><br/>
                 {!selectedContact && (

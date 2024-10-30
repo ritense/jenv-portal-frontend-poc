@@ -11,7 +11,7 @@ const ContactsPage = () => {
                 <h1>Contacten</h1>
                 <Link to={paths.addContact}
                       className={"cta-default-button float-right"}>
-                    <AddAlt/> Nieuw contact toevoegen
+                    <AddAlt />&nbsp;&nbsp;Nieuw contact toevoegen
                 </Link>
                 <p>Hieronder volgt een overzicht van je contacten binnen je directe omgeving.</p>
                 <div className={"clearfix"}></div>

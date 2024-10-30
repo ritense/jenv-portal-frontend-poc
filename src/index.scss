@@ -1,0 +1,301 @@
+// Bring in all the styles for Carbon
+@use '@carbon/react';
+// Or bring in the styles for just one component
+@use '@carbon/react/scss/components/button';
+
+#root,
+.utrecht-document {
+    height: 100%;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+    height: 100%;
+}
+
+main {
+    min-height: calc(100vh - 554px);;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+* {
+    font-family: "PT Sans", sans-serif;
+}
+
+.denhaag-responsive-content--sidebar {
+    margin-top: 2rem !important;
+}
+
+.denhaag-page-header {
+    background-color: var(--rijkshuisstijl-grijs) !important;
+}
+
+.denhaag-page {
+    background-color: var(--rijkshuisstijl-grijs) !important;
+}
+
+.denhaag-responsive-content {
+    padding: 0;
+}
+
+._header-wrapper--legacy_1lu9w_54 {
+    height: 142px;
+}
+
+._header_ngaqb_1 {
+    height: 143px;
+    background-color: var(--rijkshuisstijl-wit);
+    border-bottom: 2px solid var(--rijkshuisstijl-hemelblauw);
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .24);
+}
+
+._header__logo-container_ngaqb_60 {
+    display: none;
+}
+
+footer {
+    border-top: 2px solid var(--rijkshuisstijl-lintblauw);
+}
+
+.denhaag-responsive-content:before {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #154273;
+    width: 44px;
+    height: 78px;
+    content: "";
+    background-image: url(../src/assets/logo-rijksoverheid-wapen.svg) !important;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 80% 60%;
+}
+
+.denhaag-page-footer:before {
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateY(-32px) translateX(-22px);
+    background-color: #154273;
+    width: 44px;
+    height: 32px;
+    content: "";
+}
+
+._user-name__paragraph_tn0u3_16 {
+    display: none;
+}
+
+.denhaag-button--secondary-action:hover span {
+    color: var(--rijkshuisstijl-wit) !important;
+}
+
+.denhaag-button:hover {
+    background-color: var(--rijkshuisstijl-lintblauw) !important;
+}
+
+.denhaag-page-footer {
+    margin-block-start: 0 !important;
+    background-color: var(--rijkshuisstijl-donkergrijs) !important;
+    padding-bottom: 3rem;
+}
+
+.denhaag-page-content {
+    min-height: calc(100vh - 554px);
+}
+
+._header__elements-desktop_ngaqb_86:before {
+    content: "";
+    font-size: 2rem;
+    padding-left: 230px;
+    font-weight: 300;
+    color: #000000;
+    float: left;
+}
+
+._header__elements-desktop_ngaqb_86 {
+    width: 100%;
+    display: block;
+    text-align: right;
+    max-width: 1540px;
+    margin: 0 auto;
+    padding-top: 5rem;
+    height: auto;
+}
+
+._header__element--medium-spacing_ngaqb_115:before {
+    content: "B. Burger";
+    margin-right: 1.5rem;
+}
+
+._header__element--medium-spacing_ngaqb_115 {
+    display: inline;
+    margin: 0;
+}
+
+._header__element--medium-spacing_ngaqb_115:after {
+    clear: both;
+}
+
+._header__inner_ngaqb_49 {
+    width: 100vw !important;
+    display: block !important;
+}
+
+.denhaag-page-footer {
+    height: 300px;
+}
+
+.denhaag-button--secondary-action {
+    display: none !important;
+}
+
+h1, h2, h3 {
+    color: var(--rijkshuisstijl-zwart) !important;
+}
+
+.denhaag-menu-button {
+    padding: 0 1rem !important;
+}
+
+.denhaag-menu-button--active, .denhaag-menu-button--active, .denhaag-menu-button--active:link {
+    border-radius: 10px;
+    border: 0 solid !important;
+    font-weight: bold !important;
+}
+
+.denhaag-menu-button:active {
+    border-radius: 10px;
+    border: 0 solid !important;
+}
+
+.utrecht-heading-4 {
+    font-weight: 300 !important;
+    margin-bottom: .5rem !important;
+}
+
+.denhaag-menu-button {
+    margin-bottom: .5rem !important;
+}
+
+.denhaag-link span {
+    font-weight: lighter !important;
+    font-size: .9rem;
+    margin-bottom: .5rem !important;
+    margin-left: 1.5rem;
+}
+
+.denhaag-link span.denhaag-link__icon {
+    position: absolute !important;
+    margin-left: -.2rem;
+}
+
+.denhaag-table,
+.denhaag-table__head th,
+a.denhaag-action--single
+{
+    background-color: transparent;
+}
+._footer__column--spaced_ij9z0_38,
+._footer__column_ij9z0_31 {
+    margin: 1rem 0 !important;
+    min-width: 30% !important;
+}
+
+._footer__inner_ij9z0_13 {
+    margin: 1rem auto !important;
+}
+
+._page-grid_1npwh_1 {
+    --nlportal-page-grid-gap: 3rem;
+}
+
+a[href*="zaken"]._denhaag-menu-button--flex_1llc2_1 {
+    margin-bottom: 2rem !important;
+}
+
+a[href*="account"]._denhaag-menu-button--flex_1llc2_1 {
+    margin-top: 2rem;
+}
+
+header h1 {
+    font-weight: bold;
+}
+
+/* LIST PAGE */
+.list-page {
+    header {
+        margin-bottom: 3rem;
+        h1 {
+            margin-top: 0;
+            font-size: 32px;
+            line-height: 41.6px;
+        }
+        p {
+            font-size: .95rem;
+            margin-top: .5rem;
+            margin-bottom: 0;
+        }
+    }
+    a,
+    .list-table tr td a {
+        line-height: .5rem;
+        text-decoration: none;
+        color: #1261A3;
+    }
+    .list-table {
+        margin-top: 3rem;
+        tr th {
+            font-weight: bold;
+        }
+        tr th,
+        tr td {
+            border-bottom: 1px solid #DDD;
+            text-align: left;
+            padding: .5rem .5rem .5rem 2rem;
+            white-space: nowrap;
+        }
+    }
+}
+
+.denhaag-button,
+.cta-default-button {
+    background-color: #154273 !important;
+    color: white !important;
+    padding: 1rem !important;
+    line-height: 1rem !important;
+    border-radius: 5px !important;
+}
+.cta-default-button.float-right {
+    float: right;
+    margin-top: -.5rem;
+}
+.cta-group {
+    margin-top: 5rem;
+}
+.cta-secondary {
+    margin-top: 2rem;
+    line-height: 2rem;
+}
+.cta-secondary a {
+    text-decoration: underline;
+}
+.clearfix {
+    clear: both;
+}
+.cds--label {
+    font-weight: bold !important;
+    font-size: 1rem;
+}
+.cds--text-input,
+.cds--select-input {
+    border: 1px solid #7A8AA0;
+}

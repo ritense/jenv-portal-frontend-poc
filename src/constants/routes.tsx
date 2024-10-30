@@ -16,6 +16,8 @@ import { Navigate } from "react-router-dom";
 import ThemeSampleOverviewPage from "../pages/ThemeSampleOverviewPage";
 import ThemeSampleListPage from "../pages/ThemeSampleListPage";
 import ThemeSampleDetailPage from "../pages/ThemeSampleDetailPage";
+import ContactsPage from "../pages/ContactsPage";
+import ContactEditPage from "../pages/ContactEditPage";
 
 export const routes = [
   {
@@ -93,6 +95,25 @@ export const routes = [
       {
         path: paths.editAccount,
         element: <EditAccountPage />,
+      },
+    ],
+  },
+  {
+    path: paths.contacts,
+    children: [
+      {
+        index: true,
+        element: (
+            <ContactsPage />
+        ),
+      },
+      {
+        path: paths.addContact,
+        element: <ContactEditPage />,
+      },
+      {
+        path: paths.editContact(),
+        element: <ContactEditPage />,
       },
     ],
   },

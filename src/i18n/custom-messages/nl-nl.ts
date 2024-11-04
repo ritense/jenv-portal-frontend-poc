@@ -28,9 +28,11 @@ export const NL_NL_MESSAGES: Messages = {
     "footerLinks.rijksoverheid.nl": "Rijksoverheid.nl",
     "footerLinks.mfo-burgers": "Meldpunt Fouten in Overheidsregistraties",
     "pageTitles.overview": "Overzicht",
+    "pageTitles.tasks": "Mijn taken",
     "pageTitles.messages": "Mijn berichten",
     "pageTitles.cases": "Mijn lopende zaken",
     "pageTitles.account": "Mijn gegevens",
     "pageTitles.contacts": "Contacten",
+    "pageTitles.professionals": "Professionals",
   },
 };

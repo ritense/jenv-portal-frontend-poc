@@ -1,6 +1,4 @@
-import { Paths } from "@nl-portal/nl-portal-user-interface";
-
-export const paths: Paths = {
+export const paths: any = {
   noMatch: "/pagina-niet-gevonden",
   overview: "/",
   cases: "/zaken",
@@ -17,4 +15,5 @@ export const paths: Paths = {
   contacts: "/mijn-omgeving/contacten",
   addContact: "/mijn-omgeving/contacten/toevoegen",
   editContact: (id = ":id") => `/mijn-omgeving/contacten/contact/${id}`,
+  professionals: "/mijn-omgeving/professionals",
 };

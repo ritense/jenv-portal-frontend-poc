@@ -2,6 +2,7 @@ import {ArrowLeft} from "@carbon/icons-react";
 import {Link, useParams} from "react-router-dom";
 import {Select, SelectItem, TextInput} from "@carbon/react";
 import {contactsData} from "../mocks/contacts";
+import {paths} from "../constants/paths";
 
 const ContactEditPage = () => {
     const id = useParams().id;
@@ -11,7 +12,7 @@ const ContactEditPage = () => {
         <div className={"list-page"}>
             <header>
                 <h1>{pageTitle}</h1>
-                <Link to="/mijn-omgeving/contacten">
+                <Link to={paths.contacts}>
                     <ArrowLeft/>&nbsp;&nbsp;Terug naar contacten
                 </Link>
                 <br/><br/>
@@ -86,11 +87,11 @@ const ContactEditPage = () => {
                     </div>
                 </form>
                 <div className={"cta-group"}>
-                    <Link to="/mijn-omgeving/contacten"
+                    <Link to={paths.contacts}
                           className={"cta-default-button"}>{pageTitle}</Link>
                     <div className={"cta-secondary"}>
-                        <Link to="/mijn-omgeving/contacten">Opslaan en later verder</Link><br/>
-                        <Link to="/mijn-omgeving/contacten">Stopen met formulier</Link>
+                        <Link to={paths.contacts}>Opslaan en later verder</Link><br/>
+                        <Link to={paths.contacts}>Stopen met formulier</Link>
                     </div>
                 </div>
             </header>

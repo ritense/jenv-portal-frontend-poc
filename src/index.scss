@@ -218,6 +218,10 @@ a.denhaag-action--single
     --nlportal-page-grid-gap: 3rem;
 }
 
+a[href*="taken"]._denhaag-menu-button--flex_1llc2_1 {
+    margin-top: 2rem !important;
+}
+
 a[href*="zaken"]._denhaag-menu-button--flex_1llc2_1 {
     margin-bottom: 2rem !important;
 }
@@ -281,6 +285,21 @@ footer {
         }
     }
 }
+.cta-default-toggle-button {
+    border: 1px solid #154273 !important;
+    color: #154273 !important;
+    padding: .5rem 1rem !important;
+    line-height: 1rem !important;
+    border-radius: 5px !important;
+}
+.cta-default-toggle-button.active {
+    background-color: #154273 !important;
+    color: white !important;
+    padding: .5rem 1rem !important;
+    line-height: 1rem !important;
+    border-radius: 5px !important;
+}
+
 .denhaag-button,
 .cta-default-button {
     background-color: #154273 !important;
@@ -288,6 +307,21 @@ footer {
     padding: 1rem !important;
     line-height: 1rem !important;
     border-radius: 5px !important;
+}
+
+.float-right {
+    float: right;
+}
+.float-left {
+    float: left;
+}
+.search-cta-filter-holder {
+    width: calc(100% - 120px);
+    margin-top: -.4rem;
+    input {
+        border: 1px solid #7A8AA0;
+        border-radius: 5px !important;
+    }
 }
 .cta-default-button.float-right {
     float: right;
@@ -313,4 +347,17 @@ footer {
 .cds--text-input,
 .cds--select-input {
     border: 1px solid #7A8AA0;
+    border-radius: 5px !important;
+}
+.filter-holder {
+    padding: 2rem 0 3rem 0;
+    div {
+        float: left;
+        margin-right: 1rem;
+    }
+}
+
+select,
+.cds--search-input {
+    background-color: white !important;
 }

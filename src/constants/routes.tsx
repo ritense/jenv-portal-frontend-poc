@@ -18,6 +18,7 @@ import ThemeSampleListPage from "../pages/ThemeSampleListPage";
 import ThemeSampleDetailPage from "../pages/ThemeSampleDetailPage";
 import ContactsPage from "../pages/ContactsPage";
 import ContactEditPage from "../pages/ContactEditPage";
+import ProfessionalsPage from "../pages/ProfessionalsPage";
 
 export const routes = [
   {
@@ -114,6 +115,17 @@ export const routes = [
       {
         path: paths.editContact(),
         element: <ContactEditPage />,
+      },
+    ],
+  },
+  {
+    path: paths.professionals,
+    children: [
+      {
+        index: true,
+        element: (
+            <ProfessionalsPage />
+        ),
       },
     ],
   },

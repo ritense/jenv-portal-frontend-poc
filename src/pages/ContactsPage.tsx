@@ -1,13 +1,14 @@
 import {AddAlt, Edit} from "@carbon/icons-react";
 import {Link} from "react-router-dom";
 import {contactsData} from "../mocks/contacts";
+import {paths} from "../constants/paths";
 
 const ContactsPage = () => {
     return (
         <div className={"list-page"}>
             <header>
                 <h1>Contacten</h1>
-                <Link to="/mijn-omgeving/contacten/toevoegen"
+                <Link to={paths.addContact}
                       className={"cta-default-button float-right"}>
                     <AddAlt/>&nbsp;&nbsp;Nieuw contact toevoegen
                 </Link>
@@ -32,7 +33,7 @@ const ContactsPage = () => {
                         <td>{row.relatie || "-"}</td>
                         <td>{row.email || "-"}</td>
                         <td>
-                            <Link to={`/mijn-omgeving/contacten/contact/${row.id}`}>
+                            <Link to={paths.editContact(row.id)}>
                                 <Edit/> Aanpassen
                             </Link>
                         </td>

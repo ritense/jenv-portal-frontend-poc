@@ -1,4 +1,3 @@
-import {paths} from "../constants/paths";
 import {ArrowLeft} from "@carbon/icons-react";
 import {Link, useParams} from "react-router-dom";
 import {Select, SelectItem, TextInput} from "@carbon/react";
@@ -12,7 +11,7 @@ const ContactEditPage = () => {
         <div className={"list-page"}>
             <header>
                 <h1>{pageTitle}</h1>
-                <Link to={paths.contacts}>
+                <Link to="/mijn-omgeving/contacten">
                     <ArrowLeft/>&nbsp;&nbsp;Terug naar contacten
                 </Link>
                 <br/><br/>
@@ -33,7 +32,6 @@ const ContactEditPage = () => {
                     <br/>
                     <div>
                         <Select key={"famRelatie"}
-                                light={true}
                                 id="famRelatie"
                                 labelText="Type familierelatie (niet verplicht)"
                                 value={selectedContact?.famRelatie ? selectedContact?.famRelatie: undefined}
@@ -56,7 +54,6 @@ const ContactEditPage = () => {
                     <br/>
                     <div>
                         <Select key={"relatie"}
-                                light={true}
                                 id="relatie"
                                 labelText="Soort relatie (niet verplicht)"
                                 value={selectedContact?.relatie ? selectedContact?.relatie : undefined}
@@ -89,11 +86,11 @@ const ContactEditPage = () => {
                     </div>
                 </form>
                 <div className={"cta-group"}>
-                    <Link to={paths.contacts}
+                    <Link to="/mijn-omgeving/contacten"
                           className={"cta-default-button"}>{pageTitle}</Link>
                     <div className={"cta-secondary"}>
-                        <Link to={paths.contacts}>Opslaan en later verder</Link><br/>
-                        <Link to={paths.contacts}>Stopen met formulier</Link>
+                        <Link to="/mijn-omgeving/contacten">Opslaan en later verder</Link><br/>
+                        <Link to="/mijn-omgeving/contacten">Stopen met formulier</Link>
                     </div>
                 </div>
             </header>

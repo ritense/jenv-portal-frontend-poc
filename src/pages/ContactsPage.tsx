@@ -1,17 +1,15 @@
-import {paths} from "../constants/paths";
 import {AddAlt, Edit} from "@carbon/icons-react";
 import {Link} from "react-router-dom";
 import {contactsData} from "../mocks/contacts";
 
 const ContactsPage = () => {
-    const contacts = contactsData;
     return (
         <div className={"list-page"}>
             <header>
                 <h1>Contacten</h1>
-                <Link to={paths.addContact}
+                <Link to="/mijn-omgeving/contacten/toevoegen"
                       className={"cta-default-button float-right"}>
-                    <AddAlt />&nbsp;&nbsp;Nieuw contact toevoegen
+                    <AddAlt/>&nbsp;&nbsp;Nieuw contact toevoegen
                 </Link>
                 <p>Hieronder volgt een overzicht van je contacten binnen je directe omgeving.</p>
                 <div className={"clearfix"}></div>
@@ -27,14 +25,14 @@ const ContactsPage = () => {
                 </tr>
                 </thead>
                 <tbody>
-                {contacts.map((row) => (
+                {contactsData.map((row) => (
                     <tr key={row.id}>
                         <td>{row.naam || "-"}</td>
                         <td>{row.famRelatie || "-"}</td>
                         <td>{row.relatie || "-"}</td>
                         <td>{row.email || "-"}</td>
                         <td>
-                            <Link to={row.email ? paths.editContact(row.id):paths.addContact}>
+                            <Link to={`/mijn-omgeving/contacten/contact/${row.id}`}>
                                 <Edit/> Aanpassen
                             </Link>
                         </td>

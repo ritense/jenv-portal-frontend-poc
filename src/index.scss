@@ -260,7 +260,7 @@ footer {
             line-height: 41.6px;
         }
         p {
-            font-size: .95rem;
+            font-size: 1rem;
             margin-top: .5rem;
             margin-bottom: 0;
         }
@@ -304,9 +304,12 @@ footer {
 .cta-default-button {
     background-color: #154273 !important;
     color: white !important;
-    padding: 1rem !important;
+    padding: .9rem 1rem 1rem 1rem !important;
     line-height: 1rem !important;
     border-radius: 5px !important;
+    svg {
+        padding-top: .2rem;
+    }
 }
 
 .float-right {

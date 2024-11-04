@@ -41,16 +41,16 @@ export const menuItems: NavigationItem[][] = [
     ],
     [
         {
-            titleTranslationKey: "contacts",
-            path: "/mijn-omgeving/contacten",
-            icon: <StaffIcon/>,
+            titleTranslationKey: "professionals",
+            path: "/mijn-omgeving/professionals",
+            icon: <BuildingIcon/>,
         },
     ],
     [
         {
-            titleTranslationKey: "professionals",
-            path: "/mijn-omgeving/professionals",
-            icon: <BuildingIcon/>,
+            titleTranslationKey: "contacts",
+            path: "/mijn-omgeving/contacten",
+            icon: <StaffIcon/>,
         },
     ],
     [

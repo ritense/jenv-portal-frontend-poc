@@ -32,7 +32,11 @@ export const NL_NL_MESSAGES: Messages = {
     "pageTitles.messages": "Mijn berichten",
     "pageTitles.cases": "Mijn lopende zaken",
     "pageTitles.account": "Mijn gegevens",
-    "pageTitles.contacts": "Contacten",
+    "pageTitles.agenda": "Agenda",
+    "pageTitles.besluiten": "Besluiten",
+    "pageTitles.plannen": "Plannen",
     "pageTitles.professionals": "Professionals",
+    "pageTitles.onderzoeken": "Onderzoeken",
+    "pageTitles.contacts": "Contacten",
   },
 };

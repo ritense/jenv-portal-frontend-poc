@@ -8,10 +8,12 @@ const ContactsPage = () => {
         <div className={"list-page"}>
             <header>
                 <h1>Contacten</h1>
-                <Link to={paths.addContact}
-                      className={"cta-default-button float-right"}>
-                    <AddAlt/>&nbsp;&nbsp;Nieuw contact toevoegen
-                </Link>
+                <div className={"search-cta-filter-trigger-holder float-right"}>
+                    <Link to={paths.addContact}
+                          className={"cta-default-toggle-button active"}>
+                        <AddAlt/>&nbsp;&nbsp;Nieuw contact toevoegen
+                    </Link>
+                </div>
                 <p>Hieronder volgt een overzicht van je contacten binnen je directe omgeving.</p>
                 <div className={"clearfix"}></div>
             </header>

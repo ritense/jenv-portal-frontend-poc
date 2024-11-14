@@ -1,18 +1,30 @@
 {
-  "short_name": "NL-Portal",
-  "name": "NL-Portal",
+  "short_name": "NL Portal",
+  "name": "NL Portal",
   "icons": [
     {
-      "src": "pwa/web-app-manifest-192x192.png",
+      "src": "../pwa/manifest-icon-192.maskable.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "maskable any"
+      "purpose": "any"
     },
     {
-      "src": "pwa/web-app-manifest-512x512.png",
+      "src": "../pwa/manifest-icon-192.maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "../pwa/manifest-icon-512.maskable.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "maskable any"
+      "purpose": "any"
+    },
+    {
+      "src": "../pwa/manifest-icon-512.maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     },
     {
       "src": "favicon.ico",

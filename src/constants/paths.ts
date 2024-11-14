@@ -16,4 +16,8 @@ export const paths: any = {
   addContact: "/mijn-omgeving/contacten/toevoegen",
   editContact: (id = ":id") => `/mijn-omgeving/contacten/contact/${id}`,
   professionals: "/mijn-omgeving/professionals",
+  agenda: "/mijn-omgeving/agenda",
+  besluiten: "/mijn-omgeving/besluiten",
+  plannen: "/mijn-omgeving/plannen",
+  onderzoeken: "/mijn-omgeving/onderzoeken",
 };

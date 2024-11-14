@@ -19,6 +19,7 @@ import ThemeSampleDetailPage from "../pages/ThemeSampleDetailPage";
 import ContactsPage from "../pages/ContactsPage";
 import ContactEditPage from "../pages/ContactEditPage";
 import ProfessionalsPage from "../pages/ProfessionalsPage";
+import PlaceholderPage from "../pages/PlaceholderPage";
 
 export const routes = [
   {
@@ -125,6 +126,50 @@ export const routes = [
         index: true,
         element: (
             <ProfessionalsPage />
+        ),
+      },
+    ],
+  },
+  {
+    path: paths.agenda,
+    children: [
+      {
+        index: true,
+        element: (
+            <PlaceholderPage title={"Agenda"} />
+        ),
+      },
+    ],
+  },
+  {
+    path: paths.besluiten,
+    children: [
+      {
+        index: true,
+        element: (
+            <PlaceholderPage title={"Besluiten"} />
+        ),
+      },
+    ],
+  },
+  {
+    path: paths.onderzoeken,
+    children: [
+      {
+        index: true,
+        element: (
+            <PlaceholderPage title={"Onderzoeken"} />
+        ),
+      },
+    ],
+  },
+  {
+    path: paths.plannen,
+    children: [
+      {
+        index: true,
+        element: (
+            <PlaceholderPage title={"Plannen"} />
         ),
       },
     ],

@@ -1,12 +1,10 @@
 import {NavigationItem} from "@nl-portal/nl-portal-user-interface";
 import {
-    BuildingIcon,
-    CheckCircleIcon,
-    GridIcon,
-    InboxIcon,
-    MessageIcon,
-    StaffIcon,
-    UserLoggedInIcon
+    BuildingIcon, CalendarIcon,
+    CheckCircleIcon, DocumentIcon,
+    GridIcon, InboxIcon,
+    MessageIcon, SearchIcon, ShareIcon,
+    StaffIcon, UserLoggedInIcon
 } from "@gemeente-denhaag/icons";
 import {paths} from "./paths";
 
@@ -22,7 +20,7 @@ export const menuItems: NavigationItem[][] = [
         {
             titleTranslationKey: "tasks",
             path: paths.tasks,
-            icon: <CheckCircleIcon />,
+            icon: <CheckCircleIcon/>,
         },
     ],
     [
@@ -41,9 +39,37 @@ export const menuItems: NavigationItem[][] = [
     ],
     [
         {
+            titleTranslationKey: "agenda",
+            path: "/mijn-omgeving/agenda",
+            icon: <CalendarIcon/>,
+        },
+    ],
+    [
+        {
+            titleTranslationKey: "besluiten",
+            path: "/mijn-omgeving/besluiten",
+            icon: <DocumentIcon/>,
+        },
+    ],
+    [
+        {
+            titleTranslationKey: "plannen",
+            path: "/mijn-omgeving/plannen",
+            icon: <ShareIcon/>,
+        },
+    ],
+    [
+        {
             titleTranslationKey: "professionals",
             path: "/mijn-omgeving/professionals",
             icon: <BuildingIcon/>,
+        },
+    ],
+    [
+        {
+            titleTranslationKey: "onderzoeken",
+            path: "/mijn-omgeving/onderzoeken",
+            icon: <SearchIcon/>,
         },
     ],
     [

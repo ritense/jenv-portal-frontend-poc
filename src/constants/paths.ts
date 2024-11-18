@@ -20,4 +20,5 @@ export const paths: any = {
   besluiten: "/mijn-omgeving/besluiten",
   plannen: "/mijn-omgeving/plannen",
   onderzoeken: "/mijn-omgeving/onderzoeken",
+  startNewPlan: "/mijn-omgeving/plannen/start",
 };

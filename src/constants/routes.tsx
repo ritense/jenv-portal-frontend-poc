@@ -20,6 +20,8 @@ import ContactsPage from "../pages/ContactsPage";
 import ContactEditPage from "../pages/ContactEditPage";
 import ProfessionalsPage from "../pages/ProfessionalsPage";
 import PlaceholderPage from "../pages/PlaceholderPage";
+import PlannenPage from "../pages/PlannenPage";
+import PlanEditPage from "../pages/PlanEditPage";
 
 export const routes = [
   {
@@ -169,8 +171,12 @@ export const routes = [
       {
         index: true,
         element: (
-            <PlaceholderPage title={"Plannen"} />
+            <PlannenPage />
         ),
+      },
+      {
+        path: paths.startNewPlan,
+        element: <PlanEditPage />,
       },
     ],
   },

@@ -1,5 +1,8 @@
 // Bring in all the styles for Carbon
-@use '@carbon/react';
+@use '@carbon/react' with (
+  $font-path: '@ibm/plex'
+);
+
 // Or bring in the styles for just one component
 @use '@carbon/react/scss/components/button';
 

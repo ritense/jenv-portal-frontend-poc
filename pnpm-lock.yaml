@@ -26,6 +26,9 @@ importers:
       '@gemeente-denhaag/typography':
         specifier: 0.2.3-alpha.410
         version: 0.2.3-alpha.410(@babel/runtime@7.25.7)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@ibm/plex':
+        specifier: ^6.4.1
+        version: 6.4.1
       '@nl-portal/nl-portal-api':
         specifier: 0.1.1-alpha.136
         version: 0.1.1-alpha.136(@nl-portal/nl-portal-authentication@0.1.1-alpha.136(@react-keycloak/web@3.4.0(keycloak-js@26.0.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.5))(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@17.0.83)(graphql@16.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -1474,6 +1477,9 @@ packages:
   '@ibm/plex@6.0.0-next.6':
     resolution: {integrity: sha512-B3uGruTn2rS5gweynLmfSe7yCawSRsJguJJQHVQiqf4rh2RNgJFu8YLE2Zd/JHV0ZXoVMOslcXP2k3hMkxKEyA==}
     engines: {node: '>=14'}
+
+  '@ibm/plex@6.4.1':
+    resolution: {integrity: sha512-fnsipQywHt3zWvsnlyYKMikcVI7E2fEwpiPnIHFqlbByXVfQfANAAeJk1IV4mNnxhppUIDlhU0TzwYwL++Rn2g==}
 
   '@ibm/telemetry-js@1.7.1':
     resolution: {integrity: sha512-6S824qKqNr/gGWNkaxQz3c/9Ni5O87CrD289ms3Z/z52oUsHRgB6XYssRrn3wkiIhM9C93en1WJGmFe5nppP0A==}
@@ -11984,6 +11990,10 @@ snapshots:
 
   '@ibm/plex@6.0.0-next.6': {}
 
+  '@ibm/plex@6.4.1':
+    dependencies:
+      '@ibm/telemetry-js': 1.7.1
+
   '@ibm/telemetry-js@1.7.1': {}
 
   '@istanbuljs/load-nyc-config@1.1.0':
@@ -12231,11 +12241,7 @@ snapshots:
       jest-runner: 26.6.3
       jest-runtime: 26.6.3
     transitivePeerDependencies:
-      - bufferutil
-      - canvas
       - supports-color
-      - ts-node
-      - utf-8-validate
 
   '@jest/test-sequencer@27.5.1':
     dependencies:
@@ -17789,11 +17795,7 @@ snapshots:
       stack-utils: 2.0.6
       throat: 5.0.0
     transitivePeerDependencies:
-      - bufferutil
-      - canvas
       - supports-color
-      - ts-node
-      - utf-8-validate
 
   jest-circus@27.5.1:
     dependencies:

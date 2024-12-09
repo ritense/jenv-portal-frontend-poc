@@ -38,5 +38,10 @@ export const NL_NL_MESSAGES: Messages = {
     "pageTitles.professionals": "Professionals",
     "pageTitles.onderzoeken": "Onderzoeken",
     "pageTitles.contacts": "Contacten",
+    "case.bezwaar-behandelen.title": "Bezwaar behandelen",
+    "case.bezwaar-behandelen.status.intake-afgerond": "Intake afgerond",
+    "case.bezwaar-behandelen.status.indieningsvereisten-getoetst": "Indieningsvereisten getoetst",
+    "case.bezwaar-behandelen.status.bezwaar-beoordeeld": "Bezwaard beoordeeld",
+    "case.bezwaar-behandelen.status.hoorzitting-gehouden": "Hoorzitting gehouden"
   },
 };
